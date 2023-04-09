@@ -1,0 +1,13 @@
+@import './src/common/styles/variables';
+
+.subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  font-weight: 700;
+  margin: 20px 0;
+
+  span {
+    color: $baseColor;
+  }
+}

@@ -1,0 +1,22 @@
+@import './src/common/styles/variables';
+
+.title {
+  margin: 0;
+  color: $backgroundColorBlock;
+  font-size: 110px;
+  text-align: center;
+
+  @media (max-width: 1080px) {
+    font-size: 65px;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 45px;
+    margin-top: 50px;
+  }
+
+  @media (max-width: 360px) {
+    font-size: 30px;
+  }
+
+}

@@ -5,10 +5,10 @@ import { faPenToSquare } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { NavLink } from "react-router-dom"
 
-import myPhoto from "../../assets/img/myPhoto.jpg"
-import progressiveMyPhoto from "../../assets/img/progressiveMyPhoto.jpg"
-import { ProgressiveImg } from "../UIKit/ProgressiveImg/ProgressiveImg"
-import { TitleBackground } from "../UIKit/TitleBackground/TitleBackground"
+import myPhoto from "../../assets/img/myPhoto.png"
+import progressiveMyPhoto from "../../assets/img/progressiveMyPhoto.png"
+import { ProgressiveImg } from "../ui/Progressiveimg/Progressiveimg"
+import { TitleBackground } from "../ui/TitleBackground/TitleBackground"
 
 import styles from "./AboutMe.module.scss"
 
@@ -32,7 +32,7 @@ export const AboutMe = (): ReactElement => (
                         </NavLink>
                         <a
                             className={styles.linkSocial}
-                            href="https://www.facebook.com/dizzi.by"
+                            href="https://www.facebook.com"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -40,7 +40,7 @@ export const AboutMe = (): ReactElement => (
                         </a>
                         <a
                             className={styles.linkSocial}
-                            href="https://github.com/Dizziby"
+                            href="https://github.com/tribumagi"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -48,7 +48,7 @@ export const AboutMe = (): ReactElement => (
                         </a>
                         <a
                             className={styles.linkSocial}
-                            href="https://www.linkedin.com/in/%D0%BF%D0%B0%D0%B2%D0%B5%D0%BB-%D0%BA%D1%83%D0%BA%D0%B0%D0%B5%D0%B2-291430229/"
+                            href="https://www.linkedin.com"
                             target="_blank"
                             rel="noreferrer"
                         >

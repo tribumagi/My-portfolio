@@ -1,0 +1,38 @@
+@import './src/common/styles/variables';
+@import "./src/common/styles/mixins";
+
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  @include infoBlock(20px, $backgroundColorBlock, 20px 30px);
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+      font-size: 16px;
+      line-height: 20px;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .text {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #a9a9a9;
+
+      @media (max-width: 420px) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .icon {
+    margin-right: 20px;
+    color: $baseColor;
+  }
+}

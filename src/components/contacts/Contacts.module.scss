@@ -1,0 +1,44 @@
+@import './src/common/styles/mixins';
+
+.contacts {
+  @include page();
+
+  .container {
+    @include container();
+    @include containerFlexColumn();
+    padding-bottom: 0;
+
+    .content {
+      max-width: 1080px;
+      width: 100%;
+
+      .contactsBlock {
+        margin-bottom: 50px;
+
+        .mediaSubtitle {
+          @media (max-width: 1080px) {
+            text-align: center;
+          }
+        }
+
+        .contactsInfo {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 20px;
+          justify-items: center;
+          @media (max-width: 1080px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+      .snackbar {
+        margin: 10px auto 0;
+        max-height: 50px;
+        max-width: 320px;
+      }
+    }
+  }
+}

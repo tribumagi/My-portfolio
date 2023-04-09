@@ -1,0 +1,18 @@
+@import './src/common/styles/mixins';
+
+.myProject {
+  @include page();
+
+  .container {
+    @include container();
+    @include containerFlexColumn();
+
+    .project {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+}
+

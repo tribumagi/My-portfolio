@@ -9,7 +9,7 @@ import { Main } from "./components/main/Main"
 import { MyProjects } from "./components/myprojects/MyProjects"
 import { Navbar } from "./components/navbar/Navbar"
 import { Resume } from "./components/resume/Resume"
-import { Ui } from "./components/ui/UI"
+import { Theme } from "./components/ui/Theme/Theme"
 
 const App = (): ReactElement => {
   const location = useLocation()
@@ -21,7 +21,7 @@ const App = (): ReactElement => {
 
   return (
       <div>
-        <Ui />
+        <Theme />
         <Navbar />
         {transitions((props: any) => (
             <animated.div style={props}>

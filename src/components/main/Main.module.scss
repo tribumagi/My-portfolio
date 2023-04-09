@@ -1,0 +1,41 @@
+@import './src/common/styles/mixins';
+
+.main {
+  height: 100vh;
+  //background: linear-gradient(135deg, #1d1e21 0, #3e4246 100%);
+  //background: url('https://oir.mobi/uploads/posts/2019-11/1574906657_gory-norvegii-25.jpg') ;
+  //background-image: url('https://i.postimg.cc/nH0PJKS3/uYek08W.jpg');
+  //background-image: url('https://i.postimg.cc/1PMLSQ29/photo-1505299916137-b69793a66907.jpg');
+  //background-image: url('https://i.postimg.cc/h4R0HpRz/photo-1505299916137-b69793a66907-2-1-1.jpg');
+  background-image: url('https://i.postimg.cc/HnKS5Cjp/photo-1505299916137-b69793a66907-2-1-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+  .container {
+    @include container();
+    @include containerFlexColumn();
+
+    .title {
+      margin: 0 0 30px 0;
+      font-size: 66px;
+      line-height: 66px;
+      color: #fff;
+      font-weight: 600;
+      text-align: center;
+
+      span {
+        opacity: .5;
+      }
+    }
+  }
+
+  .particle {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}

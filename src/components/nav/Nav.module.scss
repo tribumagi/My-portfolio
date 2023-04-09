@@ -1,0 +1,40 @@
+@import './src/common/styles/variables';
+@import './src/common/styles/mixins';
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #181818;
+  max-height: 50px;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 1;
+
+  @media (max-width: 720px) {
+    display: none;
+  }
+
+  .container {
+    @include container();
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 15px;
+    transition: color .3s linear;
+
+    &:hover {
+      cursor: pointer;
+      color: $baseColor;
+    }
+  }
+}
+
+
+

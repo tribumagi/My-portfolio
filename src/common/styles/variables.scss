@@ -1,0 +1,13 @@
+:root {
+  --font-color-green: #5ac24e;
+  --font-color-orange: #f5a640;
+  --font-color-red: #ee534f;
+  --font-color-violet: #bb68c8;
+  --font-color-blue: #65b4f3;
+  --font-color-pink: #ee6192;
+
+  --font-color: var(--font-color-green);
+}
+
+$baseColor: var(--font-color);
+$backgroundColorBlock: rgba(255,255,255,.05);

@@ -1,0 +1,50 @@
+@import './src/common/styles/variables';
+@import "./src/common/styles/mixins";
+
+.myBlock {
+  @media (max-width: 1080px) {
+    max-width: 450px;
+    width: 100%;
+  }
+
+  .mediaSubtitle {
+    @media (max-width: 1080px) {
+      text-align: center;
+    }
+  }
+
+  .block {
+    @include infoBlock(20px, $backgroundColorBlock, 0);
+
+    .blockItem {
+      padding: 20px 30px;
+      border-bottom: 1px solid;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .name {
+        margin: 0 0 5px 0;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 700;
+      }
+
+      .date {
+        margin: 0 0 15px 0;
+        font-size: 12px;
+        line-height: 12px;
+        color: #777;
+        font-weight: 400;
+      }
+
+      .description {
+        font-size: 15px;
+        line-height: 1.7;
+        color: #a9a9a9;
+        font-weight: 400;
+      }
+    }
+  }
+}
