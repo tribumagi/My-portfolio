@@ -14,6 +14,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { NavLink } from "react-router-dom"
 
 import styles from "./Navbar.module.scss"
+import {faPhone} from "@fortawesome/free-solid-svg-icons/faPhone";
+import {faFolder} from "@fortawesome/free-solid-svg-icons/faFolder";
 
 export const Navbar = (): ReactElement => {
     const [showLinkPage, setShowLinkPage] = useState<boolean>(true)
@@ -60,7 +62,7 @@ export const Navbar = (): ReactElement => {
                     {({ isActive }) => (
                         <FontAwesomeIcon
                             className={isActive ? styles.iconActive : styles.icon}
-                            icon={faGear}
+                            icon={faBars}
                         />
                     )}
                 </NavLink>
@@ -68,7 +70,7 @@ export const Navbar = (): ReactElement => {
                     {({ isActive }) => (
                         <FontAwesomeIcon
                             className={isActive ? styles.iconActive : styles.icon}
-                            icon={faEnvelope}
+                            icon={faFolder}
                         />
                     )}
                 </NavLink>
@@ -76,7 +78,7 @@ export const Navbar = (): ReactElement => {
                     {({ isActive }) => (
                         <FontAwesomeIcon
                             className={isActive ? styles.iconActive : styles.icon}
-                            icon={faEye}
+                            icon={faPhone}
                         />
                     )}
                 </NavLink>

@@ -13,18 +13,18 @@ const myBlock: Array<MyBlockType> = [
         restWord: "Experience",
         placeWorkStudy: [
             {
-                name: "PLAN 9",
+                name: "Ab dob",
                 date: "2022-PRESENT",
                 description: "Frontend Developer (FULL-TIME)",
             },
             {
-                name: "PROJECT WORK",
+                name: "Tam syam",
                 date: "2022",
                 description: "Frontend Developer (PART-TIME)",
             },
             {
-                name: "VITEBSK CHP",
-                date: "2017-2022",
+                name: "Gazprom Transgas",
+                date: "2019-2022",
                 description: "Engineer (FULL-TIME)",
             },
         ],
@@ -36,18 +36,18 @@ const myBlock: Array<MyBlockType> = [
         placeWorkStudy: [
             {
                 name: "IT-INCUBATOR",
-                date: "2021-2022 | Minsk",
+                date: "2022-2023 | Minsk",
                 description: "Front-end Developer",
             },
             {
-                name: "VITEBSK STATE ORDER OF PEOPLES' FRIENDSHIP MEDICAL UNIVERSITY",
-                date: "2016-2017 | Vitebsk",
-                description: "Teacher",
+                name: "National University of Oil and Gas «Gubkin University»",
+                date: "2015-2019 | Moscow",
+                description: "Energy Engineer",
             },
             {
-                name: "POLOTSK STATE UNIVERSITY",
-                date: "2010-2015 | Polotsk",
-                description: "Civil engineer",
+                name: "Hogwarts",
+                date: "2010-2015 | Karabudakhkent",
+                description: "Dementor",
             },
         ],
     },

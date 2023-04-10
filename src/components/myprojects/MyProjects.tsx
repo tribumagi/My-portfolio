@@ -1,9 +1,9 @@
 import React, { ReactElement } from "react"
 
-import cards from "../../assets/img/cards.png"
+import naBeregu from "../../assets/img/naBeregu.png"
 import landingPage from "../../assets/img/landingPage.png"
 import socialNetwork from "../../assets/img/socialNetwork.png"
-import todolist from "../../assets/img/todolist.png"
+import todolists from "../../assets/img/todolists.png"
 import weather from "../../assets/img/weather.png"
 import { TitleBackground } from "../ui/TitleBackground/TitleBackground"
 
@@ -11,38 +11,30 @@ import styles from "./MyProjects.module.scss"
 import { Project } from "./Project/Project"
 
 const projects: Array<ProjectType> = [
-    {
-        id: 1,
-        title: "Weather",
-        description: "React Native",
-        url: "https://github.com/Dizziby/weather-react-native",
-        logo: {
-            backgroundImage: `url(${weather})`,
-        },
-    },
+
     {
         id: 2,
-        title: "Cards",
+        title: "Na beregu",
         description: "React",
-        url: "https://ilyagab.github.io/fridayproject/",
+        url: "",
         logo: {
-            backgroundImage: `url(${cards})`,
+            backgroundImage: `url(${naBeregu})`,
         },
     },
     {
         id: 3,
         title: "To Do List",
         description: "React",
-        url: "https://dizziby.github.io/to-do-list/",
+        url: "",
         logo: {
-            backgroundImage: `url(${todolist})`,
+            backgroundImage: `url(${todolists})`,
         },
     },
     {
         id: 4,
         title: "Social network",
         description: "React",
-        url: "https://dizziby.github.io/social-network/",
+        url: "",
         logo: {
             backgroundImage: `url(${socialNetwork})`,
         },
@@ -51,7 +43,7 @@ const projects: Array<ProjectType> = [
         id: 5,
         title: "Landing page",
         description: "HTML",
-        url: "https://dizziby.github.io/landing-page/",
+        url: "",
         logo: {
             backgroundImage: `url(${landingPage})`,
         },
@@ -60,7 +52,7 @@ const projects: Array<ProjectType> = [
 
 export const MyProjects = (): ReactElement => (
     <div className={styles.myProject}>
-        <TitleBackground name="MY PROJECT" />
+        <TitleBackground name="MY PROJECTS" />
         <div className={styles.container}>
             <div className={styles.project}>
                 {projects.map(el => (

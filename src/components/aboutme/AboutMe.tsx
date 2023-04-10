@@ -5,7 +5,7 @@ import { faPenToSquare } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { NavLink } from "react-router-dom"
 
-import myPhoto from "../../assets/img/myPhoto.png"
+import myPhoto from "../../assets/img/myPhoto.jpg"
 import progressiveMyPhoto from "../../assets/img/progressiveMyPhoto.png"
 import { ProgressiveImg } from "../ui/Progressiveimg/Progressiveimg"
 import { TitleBackground } from "../ui/TitleBackground/TitleBackground"
@@ -19,7 +19,7 @@ export const AboutMe = (): ReactElement => (
             <div className={styles.content}>
                 <div className={styles.info}>
                     <div className={styles.text}>
-                        <strong>Hello, I’m a Murad</strong>, web-developer based on Sankt-Petersburg. I have
+                        <strong>Hello, I’m a Murad</strong>, web-developer based on Saint Petersburg. I have
                         experience in creating apps using{" "}
                         <strong>
                             React, Next.js, Redux Toolkit, Typescript, React Native, JS, HTML, CSS.
