@@ -4,7 +4,7 @@ import naBeregu from "../../assets/img/naBeregu.png"
 import landingPage from "../../assets/img/landingPage.png"
 import socialNetwork from "../../assets/img/socialNetwork.png"
 import todolists from "../../assets/img/todolists.png"
-import weather from "../../assets/img/weather.png"
+
 import { TitleBackground } from "../ui/TitleBackground/TitleBackground"
 
 import styles from "./MyProjects.module.scss"
@@ -23,9 +23,9 @@ const projects: Array<ProjectType> = [
     },
     {
         id: 3,
-        title: "To Do List",
+        title: "Todolists",
         description: "React",
-        url: "",
+        url: "https://tribumagi.github.io/Todolists/",
         logo: {
             backgroundImage: `url(${todolists})`,
         },
@@ -34,7 +34,7 @@ const projects: Array<ProjectType> = [
         id: 4,
         title: "Social network",
         description: "React",
-        url: "",
+        url: "https://tribumagi.github.io/social-network/",
         logo: {
             backgroundImage: `url(${socialNetwork})`,
         },

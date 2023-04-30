@@ -21,7 +21,7 @@ const App = (): ReactElement => {
 
   return (
       <div>
-        <Theme />
+        {/*<Theme />*/}
         <Navbar />
         {transitions((props: any) => (
             <animated.div style={props}>

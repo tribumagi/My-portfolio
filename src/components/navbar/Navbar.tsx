@@ -23,10 +23,10 @@ export const Navbar = (): ReactElement => {
     const linksPageFinal = showLinkPage ? `${styles.linksPageLeft}` : `${styles.linksPageTop}`
 
     const onBlurHandler = (): void => {
-        // const ms = 100
-        // setTimeout(() => {
-        //     setShowLinkPage(true)
-        // }, ms)
+        const ms = 100
+        setTimeout(() => {
+            setShowLinkPage(true)
+        }, ms)
     }
 
     const handleWindowResize = (): void => {
