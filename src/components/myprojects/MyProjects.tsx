@@ -16,7 +16,7 @@ const projects: Array<ProjectType> = [
         id: 2,
         title: "Na beregu",
         description: "React",
-        url: "",
+        url: "https://yandex.ru/search/?text=na+beregu&lr=21520&redircnt=1682856245.1",
         logo: {
             backgroundImage: `url(${naBeregu})`,
         },
