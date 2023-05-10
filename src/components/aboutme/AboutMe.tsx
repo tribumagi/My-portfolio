@@ -62,7 +62,7 @@ export const AboutMe = (): ReactElement => (
                     className={styles.photo}
                     alt="myPhoto"
                     width={350}
-                    height={525}
+
                 />
             </div>
         </div>

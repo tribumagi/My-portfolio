@@ -23,7 +23,7 @@ export const Form: React.FC<FormPropsType> = ({
     const onSubmit: SubmitHandler<InputsType> = (data): void => {
         setDisabledButton(true)
         emailjs
-            .send("service_56tyxiw", "template_q6bdaun", data, "YH76wSlAOLCIsXrXz")
+            .send("service_2vvfy9c", "template_zn87zxf", data, "YH76wSlAOLCIsXrXz")
             .then(() => {
                 reset()
                 setSendMessage("Message sent successfully!")
